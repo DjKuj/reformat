@@ -1,6 +1,6 @@
 -   id: validate_manifest
-    name: validate pre-commit manifest
-    description: This validator validates a pre-commit hooks manifest file
-    entry: pre-commit-validate-manifest
+    name: validate reformat manifest
+    description: This validator validates a reformat hooks manifest file
+    entry: reformat-validate-manifest
     language: python
-    files: ^(\.pre-commit-hooks\.yaml|hooks\.yaml)$
+    files: ^(\.reformat-hooks\.yaml|hooks\.yaml)$
